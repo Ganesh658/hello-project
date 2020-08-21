@@ -15,10 +15,13 @@ artifacts:
   secondary-artifacts:
     artifact1:
       files:
-      base-directory: '*/target/Myproject'
+      directory: 'fileupload_downloadapp'
+      base-directory: 'target/Myproject'
     artifact2:
       files:
-      base-directory: '*/target/Myproject2'   
+      directory: 'insurancewebex'
+      base-directory: 'target/Myproject2'   
     artifact3:
       files:
-      base-directory: '*/target/Myproject3'
+      directory: 'springwebex'
+      base-directory: 'target/Myproject3'
