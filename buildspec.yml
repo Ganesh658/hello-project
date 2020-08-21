@@ -8,17 +8,17 @@ phases:
       - java -version
       - mvn package
       
-      
-      
- artifacts1:
+    
+
+ artifacts:
    files:
     - '**/*'
    base-directory: 'fileupload_downloadapp/target/Myproject'
- artifacts2:
+ artifacts1:
    files:
     - '**/*'
    base-directory: 'insurancewebex/target/Myproject2'
- artifacts3:
+ artifacts2:
    files:
     - '**/*'
    base-directory: 'springwebex/target/Myproject3'
