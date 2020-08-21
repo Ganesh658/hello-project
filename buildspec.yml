@@ -17,12 +17,10 @@ phases:
    secondary-artifacts:
      artifact1:
        files:
-         - '**/*'
-         base-directory: 'insurancewebex/target/Myproject2'
+         - 'insurancewebex/target/Myproject2'
      artifact2:
        files:
-         - '**/*'
-         base-directory: 'springwebex/target/Myproject3'
+         - 'springwebex/target/Myproject3'
  
  
  
