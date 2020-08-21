@@ -14,7 +14,6 @@ phases:
  artifacts:
   files:
     - '**/*'
-  secondary-artifacts:
     artifact1:
       base-directory: 'fileupload_downloadapp/target/Myproject'
     artifact2:
