@@ -8,9 +8,12 @@ phases:
       - java -version
       - mvn package
       
-      
-
-artifacts:
+ 
+ 
+ 
+ artifacts:
+  files:
+    - '**/*'
   secondary-artifacts:
     artifact1:
       base-directory: 'fileupload_downloadapp/target/Myproject'
