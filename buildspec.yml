@@ -13,3 +13,13 @@ artifacts:
   files:
     - '**/*'
   base-directory: 'fileupload_downloadapp/target/Myproject'
+  
+artifacts:
+  files:
+    - '**/*'
+  base-directory: 'insurancewebex/target/Myproject2'
+  
+artifacts:
+  files:
+    - '**/*'
+  base-directory: 'springwebex/target/Myproject3'
