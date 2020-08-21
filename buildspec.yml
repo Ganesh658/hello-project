@@ -1,0 +1,30 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      java: corretto8
+  build:
+    commands:
+      - java -version
+      - mvn package
+      
+      
+artifacts:
+  files:
+    - '**/*'
+  secondary-artifacts:
+    artifact1:
+      files:
+        - 'target/Myproject'
+      name: fileupload_downloadapp
+    artifact2:
+      files:
+        - 'target/Myproject2'
+      name: insurancewebex   
+    artifact3:
+      files:
+        - 'target/Myproject3'
+      name: insurancewebex  
+        
+      
+     
