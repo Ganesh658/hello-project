@@ -16,15 +16,15 @@ artifacts:
     artifact1:
       files:
         - 'target/Myproject'
-      name: fileupload_downloadapp
+      base-directory: fileupload_downloadapp
     artifact2:
       files:
         - 'target/Myproject2'
-      name: insurancewebex   
+      base-directory: insurancewebex   
     artifact3:
       files:
         - 'target/Myproject3'
-      name: insurancewebex  
+      base-directory: insurancewebex  
         
       
      
