@@ -17,15 +17,15 @@ phases:
   secondary-artifacts:
     artifact1:
       files:
-        - directory/fileupload_downloadapp/target/Myproject
+        - 'fileupload_downloadapp/target/Myproject'
       name: fileupload_downloadapp
     artifact2:
       files:
-        - directory/insurancewebex/target/Myproject2
+        - 'insurancewebex/target/Myproject2'
       name: insurancewebex
     artifact3:
       files:
-        - directory/springwebex/target/Myproject3
+        - 'springwebex/target/Myproject3'
       name: springwebex
  
  
