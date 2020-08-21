@@ -15,16 +15,13 @@ artifacts:
   secondary-artifacts:
     artifact1:
       files:
-        - 'target/Myproject'
-      base-directory: fileupload_downloadapp
+      base-directory: 'fileupload_downloadapp/target/Myproject'
     artifact2:
       files:
-        - 'target/Myproject2'
-      base-directory: insurancewebex   
+      base-directory: 'insurancewebex/target/Myproject2'   
     artifact3:
       files:
-        - 'target/Myproject3'
-      base-directory: insurancewebex  
+      base-directory: 'insurancewebex/target/Myproject2' 
         
       
      
