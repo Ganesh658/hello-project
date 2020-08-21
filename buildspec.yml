@@ -23,7 +23,7 @@ phases:
       files:
         - directory/insurancewebex/target/Myproject2
       name: insurancewebex
-    artifact2:
+    artifact3:
       files:
         - directory/springwebex/target/Myproject3
       name: springwebex
