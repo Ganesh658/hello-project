@@ -14,14 +14,15 @@ phases:
    files:
     - '**/*'
    base-directory: 'fileupload_downloadapp/target/Myproject'
- artifacts1:
-   files:
-    - '**/*'
-   base-directory: 'insurancewebex/target/Myproject2'
- artifacts2:
-   files:
-    - '**/*'
-   base-directory: 'springwebex/target/Myproject3'
+   secondary-artifacts:
+     artifact1:
+       files:
+         - '**/*'
+         base-directory: 'insurancewebex/target/Myproject2'
+     artifact2:
+       files:
+         - '**/*'
+         base-directory: 'springwebex/target/Myproject3'
  
  
  
