@@ -9,7 +9,7 @@ phases:
       - mvn package
 artifacts:
   files:
-    - directory/*
+    - '**/*'
   secondary-artifacts:
     artifact1:
       files:
