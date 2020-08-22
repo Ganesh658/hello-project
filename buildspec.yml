@@ -7,13 +7,10 @@ phases:
     commands:
       - java -version
       - mvn package
-      
- 
- artifacts:
+artifacts:
   files:
     - '**/*'
   base-directory: 'fileupload_downloadapp/target/Myproject'
- 
   
   
   
