@@ -11,7 +11,7 @@ phases:
       - touch fileupload_downloadapp
       - cd insurancewebex/target/Myproject2
       - touch insurancewebex
-      - cd insurancewebex/target/Myproject3
+      - cd springwebex/target/Myproject3
       - touch springwebex
 
 artifacts:
