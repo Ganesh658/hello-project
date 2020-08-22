@@ -7,26 +7,8 @@ phases:
     commands:
       - java -version
       - mvn package
-      - cd fileupload_downloadapp/target/Myproject
-      - touch fileupload_downloadapp
-      - cd insurancewebex/target/Myproject2
-      - touch insurancewebex
-      - cd springwebex/target/Myproject3
-      - touch springwebex
-
 artifacts:
-  secondary-artifacts:
-    artifact1:
-      base-directory: fileupload_downloadapp/target/Myproject
-      files:
-        - fileupload_downloadapp
-    artifact2:
-      base-directory: insurancewebex/target/Myproject2
-      files:
-        - insurancewebex
-    artifact3:
-      base-directory: springwebex/target/Myproject3
-      files:
-        - springwebex
-
-     
+  files:
+    - '**/*'
+  base-directory: 'fileupload_downloadapp/target/Myproject'
+  
