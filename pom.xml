@@ -6,7 +6,6 @@
 	<artifactId>TrafficProject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-     <name>reactive-parent</name>
     <modules>
         <module>fileupload_downloadapp</module>
         <module>insurancewebex</module>
