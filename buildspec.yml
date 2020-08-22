@@ -12,5 +12,4 @@ artifacts:
     - '**/*'
   base-directory: 'fileupload_downloadapp/target/Myproject'
   base-directory: 'insurancewebex/target/Myproject2'
-  base-directory: 'springwebex/target/Myproject3'
   
