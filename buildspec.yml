@@ -8,10 +8,11 @@ phases:
       - java -version
       - mvn package
 artifacts:
-  files:
-    - '**/*'
-  base-directory: 'fileupload_downloadapp/target/Myproject'
   secondary-artifacts:
+    artifact1:
+      base-directory: 'fileupload_downloadapp/target/Myproject'
+      files:
+        -  '**/*'
     artifact1:
       base-directory: 'insurancewebex/target/Myproject2'
       files:
