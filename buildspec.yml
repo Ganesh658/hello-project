@@ -11,3 +11,4 @@ artifacts:
   files:
     - '**/*'
   base-directory: 'fileupload_downloadapp/target/Myproject'
+  
